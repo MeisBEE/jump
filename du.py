@@ -18,8 +18,8 @@ print(logo)
 file=input("\x1b[1;91m[\x1b[1;97m+\x1b[1;91m] \x1b[1;97mCHOSE THE PATH: ")
 try:
     open(file,"r").read()
-except:
-    file="/sdcard/TMM.txt"
+except Exception as e:
+  print('\x1b[1;97mNO LOCATION FOUND!')
 def s(code):
     ln=15-len(code)
     lim=int("9"*(ln))+1
@@ -29,11 +29,13 @@ def s(code):
 def gen(code,tt):
     os.system('clear')
     print(logo)
-    print(' \x1b[1;97m           DUMP IS PROCESSING')
-    print(' \x1b[1;97m           [CTRL+Z] FOR STOP')
-    print("\x1b[1;90m══════════════════════════════════════════")
-    for i in range(tt):
-        uids.append(code+''.join(random.choice(string.digits) for _ in range(
+    print('\x1b[1;97mPRESS [1] TO START THE PROCESS')
+    nas=int(input("\x1b[1;91m[\x1b[1;97m+\x1b[1;91m] \x1b[1;97mINPUT: "))
+    if nas==2:
+        s(code)
+    else:
+        for i in range(tt):
+            uids.append(code+''.join(random.choice(string.digits) for _ in range(
         15-len(code)
         )))
         
