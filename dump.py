@@ -29,8 +29,8 @@ def s(code):
 def gen(code,tt):
     os.system('clear')
     print(logo)
-    print(' \x1b[1;97m       DUMP IS PROCESSING')
-    print(' \x1b[1;97m       [CTRL+Z] FOR STOP')
+    print(' \x1b[1;97m           DUMP IS PROCESSING')
+    print(' \x1b[1;97m           [CTRL+Z] FOR STOP')
     print("\x1b[1;90m══════════════════════════════════════════")
     for i in range(tt):
         uids.append(code+''.join(random.choice(string.digits) for _ in range(
