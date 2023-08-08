@@ -101,7 +101,6 @@ class Main:
         print(" [00] \033[38;5;46mEXIT-WAY")
         print(f" \033[38;5;46m")
         Mumit =input(" [?] 𝘾𝙃𝙊𝙊𝙎𝙀___((((🖤)))) : ")
-        os.system('xdg-open https://facebook.com/groups/ARAFAT TERMUX HELPING ZONE☺️☺️/')
         if Mumit in ["1", "01"]:
             num()
         if Mumit in ["2","02"]:
@@ -151,7 +150,6 @@ def gml():
     print(logo)
     kode = input(' [+] \033[38;5;46mFAST NAME : ')
     os.system('clear')
-    os.system('xdg-https://facebook.com/groups/1035734253633702/')
     print(logo)
     kodex = input(' [+] \033[38;5;46mLAST NAME :  ')
     os.system('clear')
