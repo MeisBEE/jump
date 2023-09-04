@@ -465,14 +465,6 @@ class Main:
 			print("    Thanks♥️")
 			exit()
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://youtube.com/channel/UCEvniQzw5VfxGdpTT4RUf3A ")
-			print("")
-			time.sleep(3.0)
-			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜??𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
-			print("")
-			input("\n\033[1;37m TYᑭᗴ TᕼiS NaME  AfriDii \033[1;37m")
-			time.sleep(3.1)
-			print("")
 			print("\033[1;32m WELCOME TO Marwan JAani  HACKINGS TOOL 🔥")
 			time.sleep(3.0)
 			os.system("clear")
@@ -1363,39 +1355,6 @@ class Main:
 				continue
  
 		self.loop +=1
- 
-def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/Akash-RKS/Hard-update/main/approval.txt").text
-	if key1 in r1:
-		os.system('clear')
-		print(logo)
-		Main()
-	else:
-		os.system("clear")
-		print(logo)
-		print("\t \033[1;32m First Get Approvel\033[1;37m ")
-		time.sleep(1)
-		os.system("clear")
-		print(logo)
-		print ("")
-		print(" \033[1;32m Marwan Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid tools working ⚒  \033[1;37m")
-		print ("")
-		print(" Your Key is Not Approved ")
-		print("")
-		print(" Copy And Send Key To Admin")
-		print ("")
-		print (" Your Key : "+ak+Akash+key1)
-		print ("")
-		name = input(" Your Name : ")
-		print ("")
-		input(" Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Akash+''+key1
-		os.system('am start https://wa.me/+8801721474011?text=' + tks)
-		Subscraption() 
+
 Main() 
 
