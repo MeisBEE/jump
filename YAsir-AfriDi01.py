@@ -386,15 +386,12 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
-logo = """
-
-                  
+logo = """              
     \033[0;31m╔╦╗╦ ╦╔═╗  \033[0;37m╔╦╗╔═╗╔═╗╦╔═  \033[0;34m╔╦╗╔═╗╔╗╔
      \033[0;31m║ ╠═╣║╣   \033[0;37m║║║╠═╣╚═╗╠╩╗  \033[0;34m║║║╠═╣║║║
      \033[0;31m╩ ╩ ╩╚═╝  \033[0;37m╩ ╩╩ ╩╚═╝╩ ╩  \033[0;34m╩ ╩╩ ╩╝╚╝
 \x1b[1;90m══════════════════════════════════════════                                 
 """
- 
 class Main:
 	def __init__(self):
 		self.id = []
@@ -447,7 +444,6 @@ class Main:
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
 				os.system("clear")
 				print(logo)
-				print("     \033[0;93m   🅟︎🅡︎🅔︎🅜︎🅘︎🅤︎🅜︎  🅜︎🅞︎🅓︎🅔︎  🅐︎🅒︎🅣︎🅘︎🅥︎🅐︎🅣︎🅔︎🅓︎")
 				print("\n\033[0;94m [+] 𝗕𝗿𝘂𝘁𝗲 𝗛𝗮𝘀 𝗕𝗲𝗲𝗻 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 🙂👈")
 				print(" \033[0;96m[+] 𝗡𝗼𝘁𝗲 : 70% 𝗖𝗣 𝗮𝗰𝗰𝗼𝘂𝗻𝘁𝘀 𝗼𝗽𝗲𝗻 𝗝𝗨𝗦𝗧 𝗡𝗢𝗪")
 				print(" [!] 𝗜𝗙 𝗡𝗢 𝗥𝗘𝗦𝗨𝗟𝗧𝗦 𝗨𝗦𝗘 𝗔𝗜𝗥𝗢𝗣𝗟𝗔𝗡𝗘 𝗠𝗢𝗗𝗘 𝗙𝗢𝗥 10 𝗦𝗘𝗖𝗦")
