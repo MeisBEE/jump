@@ -34,8 +34,9 @@ def menu():
 	print("\x1b[1;90m══════════════════════════════════════════")
 	opt = input('\x1b[1;97m[●] ENTER YOUR CHOICE: ')
 	if opt =='1':
-		old()
-	def old(self):
+		aloo()
+  
+	def aloo(self):
 		x = 111111111
 		xx = 999999999
 		idx = "100000" 
