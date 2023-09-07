@@ -21,14 +21,12 @@ logo = ("""
      \033[0;31m║ ╠═╣║╣   \033[0;37m║║║╠═╣╚═╗╠╩╗  \033[0;34m║║║╠═╣║║║
      \033[0;31m╩ ╩ ╩╚═╝  \033[0;37m╩ ╩╩ ╩╚═╝╩ ╩  \033[0;34m╩ ╩╩ ╩╝╚╝
 \x1b[1;90m══════════════════════════════════════════""")
-loop = 0
-oks = []
-ok =[]
-cp = []
-cps = []
-uid = []
-pcp = []
-id = []
+class Main:
+	def __init__(self):
+		self.id = []
+		self.ok = []
+		self.cp = []
+		self.loop = 0
 def menu():
 	os.system('clear')
 	print(logo)
