@@ -15,10 +15,6 @@ except Exception as e:
   print('NO CONNECTION!')
 proxsi=open('zprox.txt','r').read().splitlines()
 
-##-------------[UA]------------##
-
-usergent=open('uaan.txt','r').read().splitlines()
-
 ###----------[ LOGO ]----------###
 logo = ("""                   
     \033[0;31m╔╦╗╦ ╦╔═╗  \033[0;37m╔╦╗╔═╗╔═╗╦╔═  \033[0;34m╔╦╗╔═╗╔╗╔
